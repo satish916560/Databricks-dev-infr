@@ -26,7 +26,7 @@ data "aws_cloudformation_stack" "this" {
 
 data "aws_vpc" "this" {
    tags = {
-    Name = "Quick-Start-VPC"
+    Name = "databricks-WorkerEnvId(workerenv-1523833569153399-1b4a855f-bf88-4d15-9112-0c7d2fed5ceb)"
   }
 }
 
