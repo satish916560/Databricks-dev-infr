@@ -17,7 +17,7 @@ data "aws_ssm_parameter" "dbr_account_id" {
 // data source aws cloudformation stack
 
 data "aws_cloudformation_stack" "this" {
-  name = "databricks-workspace-stack-6bc30"
+  name = "databricks-workspace-stack-fefaa"
 }
 
 
@@ -62,6 +62,6 @@ locals {
     databricks_account_id = data.aws_ssm_parameter.dbr_account_id.value
 }
 
-data "aws_iam_role" "this" {
-  name = "databricks-workspace-stack-fefaa-role"
-}
+# data "aws_iam_role" "this" {
+#   name = "databricks-workspace-stack-fefaa-role"
+# }
