@@ -7,6 +7,6 @@ output "mws_credential_id" {
 }  
 
 
-output "mws_storage_configuration_id" {
-  value = data.aws_cloudformation_stack.this.outputs["StorageConfigId"]
-}  
+# output "mws_storage_configuration_id" {
+#   value = data.aws_cloudformation_stack.this.outputs["StorageConfigId"]
+# }  
