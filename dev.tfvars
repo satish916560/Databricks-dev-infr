@@ -1,4 +1,4 @@
-region = "us-west-2"
+region = "eu-west-2"
 
 workspace_name = "dev_dbr_ws_terra"
 

@@ -9,7 +9,7 @@ variable "mws_network_name" {}
 variable "mws_credential_name" {}
 
 variable "region" {
-  default = "us-west-2"
+  default = "eu-west-2"
 }
 
 
