@@ -63,5 +63,5 @@ locals {
 }
 
 data "aws_iam_role" "this" {
-  name = "dbr-cross-account-role"
+  name = "databricks-workspace-stack-fefaa-role"
 }
